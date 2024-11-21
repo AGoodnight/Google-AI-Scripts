@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "UMD",
+    "baseUrl": "./",
+    "rootDir": "src",
+    "outDir": "lib",
+    "moduleResolution": "node",
+    "strict": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "paths": {
+      "*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/services/*"
+  ]
+}

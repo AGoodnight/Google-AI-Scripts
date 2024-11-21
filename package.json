@@ -1,0 +1,23 @@
+{
+  "name": "sample-google-speech-to-text-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Adam Goodnight",
+  "license": "ISC",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.10",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^6.7.0",
+    "commander": "^12.1.0"
+  }
+}

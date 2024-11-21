@@ -1,0 +1,5 @@
+**/*/gc-auth.json
+node_modules
+dist
+**/*.wav
+**/*.m4a
