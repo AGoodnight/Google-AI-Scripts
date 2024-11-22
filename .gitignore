@@ -1,4 +1,6 @@
 **/*/gc-auth.json
+**/*/environment.json
+**/*/gcp-key.json
 node_modules
 dist
 **/*.wav
