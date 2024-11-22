@@ -12,7 +12,7 @@ npm install;
 ```bash
 npm run transcribe -- "./yourspeech.wav";
 
-"Hello, I am a hippo, waht is water?"
+"Hello, I am a hippo, what is water?"
 ```
 
 ### Prompt Google Vertex's Chatbot
