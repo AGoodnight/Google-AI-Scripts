@@ -15,8 +15,6 @@ npm run transcribe -- "./yourspeech.wav";
 "Hello, I am a hippo, waht is water?"
 ```
 
-Google Documentation: https://cloud.google.com/nodejs/docs/reference/speech/latest
-
 ### Prompt Google Vertex's Chatbot
 
 ```bash
